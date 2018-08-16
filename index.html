@@ -29,7 +29,7 @@
 	<link rel="icon" type="image/gif/png" href="assets/images/icon.png">
 </head>
 
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top p-1"> <!-- startNav -->
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-2"> <!-- startNav -->
 		<a class="nav-brand" href="#" id="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
@@ -37,11 +37,13 @@
 
 			<div class="collapse navbar-collapse ml-2" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link active" href="#top"> HOME</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about"> ABOUT</a></li>
-					<li class="nav-item"><a class="nav-link" href="#development"> DEVELOPMENT</a></li>
-					<li class="nav-item"><a class="nav-link" href="#portfolio"> PORTFOLIO</a></li>
-					<li class="nav-item"><a class="nav-link" href="#contact"> CONTACT</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#top"> MY PORTFOLIO</a></li>
+				</ul>	
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"> ABOUT</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#development"> DEVELOPMENT</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"> PORTFOLIO</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"> CONTACT</a></li>
 				</ul>
 			</div>
 		</nav> <!-- endNav -->
@@ -49,8 +51,8 @@
 <section id="header"> <!-- landingPage -->
 	<div class="container-fluid"> 
 		<h1 class="display-6 animated fadeIn">Aldrin Manahan</h1> 
-		<h2 class="display-6 animated fadeIn">Web Developer</h2>
-    	<a href="#about"><i class="fas fa-chevron-circle-down animated fadeInDown"></i></a> <!-- downButton -->
+		<h2 class="display-6 animated fadeIn mt-3">Front-End Web Developer</h2>
+    	<a href="#about"><i class="fas fa-chevron-circle-down animated fadeInDown mt-3"></i></a> <!-- downButton -->
     </div> 
 </section> 
 
@@ -63,9 +65,9 @@
 	</div>
 	<div class="row">
 		<div class="col-md-3 col-sm-2"></div>
-		<div class="col-md-6 col-sm-8 text-md-center text-center about-info"> <!-- aboutMe info -->
+		<div class="col-md-6 col-sm-8 text-md-center text-center about-info mb-5"> <!-- aboutMe info -->
 			<img src="assets/images/me1.jpg" class="me animated fadeIn img-circle text-center profile-img">			
-			<p class="text-center">I'm a web developer from Manila, PH. I'm currently learning web development using HTML, CSS and Bootstrap with Tuitt Philippines. </p>
+			<p class="text-center">I am Aldrin Manahan, a Web Developer from Manila, PH. I'm an Information and Communications Technology Graduate and is currently learning full-stack web development at Tuitt Philippines. </p>
 		</div>
 		<div class="col-md-3 col-sm-2"></div>
 	</div>
@@ -79,41 +81,76 @@
 	<div class="row">
 		
 		<div class="col-1 col-sm-4 col-md-3"></div>
-		<div class="col-10 col-sm-4 col-md-6"> <!-- progressBar -->
+		<div class="col-10 col-sm-4 col-md-6"> 
 			<h3 class="title">Skills</h3>
-			<div class="row">
-				<img src="assets/images/dev/html.png" class="logo animated fadeIn">	
+			<div class="row mt-5">
+				<img src="assets/images/dev/html.png" class="logo animated fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="html">
-  						<div class="progress-bar progress-bar-striped progress-bar-animated" id="html" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><class="val">80%</div>
+  						<div class="progress-bar progress-bar-striped" id="html" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"><class="val">85%</div>
 					</div>
-				</div>
-			</div>
-
-			<div class="row">
+				</div>	
 				<img src="assets/images/dev/css.png" class="logo animated fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="css">
-  						<div class="progress-bar progress-bar-striped progress-bar-animated" id="css" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+  						<div class="progress-bar progress-bar-striped" id="css" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+					</div>
+				</div>	
+			</div>
+			<div class="row">
+				<img src="assets/images/dev/js.png" class="logo animated fadeIn">
+				<div class="col">
+					<br>
+					<div class="progress bg-light" id="js">
+  						<div class="progress-bar progress-bar-striped" id="js" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+					</div>
+				</div>	
+				<img src="assets/images/dev/php.png" class="logo animated fadeIn">	
+				<div class="col">
+					<br>
+					<div class="progress bg-light" id="php">
+  						<div class="progress-bar progress-bar-striped" id="php" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+					</div>
+				</div>		
+			</div>
+			<div class="row">  
+				<img src="assets/images/dev/jquery.png" class="logo animated fadeIn">
+				<div class="col">
+					<br>
+					<div class="progress bg-light" id="jquery">
+  						<div class="progress-bar progress-bar-striped" id="jquery" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+					</div>
+				</div>		
+				<img src="assets/images/dev/sql.png" class="logo animated fadeIn">
+				<div class="col">
+					<br>
+					<div class="progress bg-light" id="sql">
+  						<div class="progress-bar progress-bar-striped" id="sql" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
 					</div>
 				</div>
 			</div>
-
-			<div class="row">
+			<div class="row">	
 				<img src="assets/images/dev/bootstrap.png" class="logo animated fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="bootstrap">
-  						<div class="progress-bar progress-bar-striped progress-bar-animated" id="bootstrap" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+  						<div class="progress-bar progress-bar-striped" id="bootstrap" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
 					</div>
-				</div>
-			</div>
+				</div>		
+				<img src="assets/images/dev/laravel.png" class="logo animated fadeIn">
+				<div class="col">
+					<br>
+					<div class="progress bg-light" id="laravel">
+  						<div class="progress-bar progress-bar-striped" id="laravel" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+					</div>
+				</div>		
 		</div>
 		<div class="col-1 col-sm-4 col-md-3"></div>
 	</div>
 	</div>
+
 
 	<!-- TOOLS AND KNOWLEDGE -->
 	<br>
@@ -127,10 +164,10 @@
 		<div class="row">
 			<div class="col-6 col-sm-8 offset-md-2"> <!-- Tools -->
 			<ul class="tools">
-         		<li><img src="assets/images/tools/ps.png" class="logo animated fadeIn"> Adobe Photoshop</li>
-         		<li><img src="assets/images/tools/sublime.png" class="logo animated fadeIn"> Sublime Text</li>
-         		<li><img src="assets/images/tools/github.png" class="logo animated fadeIn"> Github</li>
-         		<li><img src="assets/images/tools/gitlab.png" class="logo animated fadeIn"> Gitlab</li>
+         		<li><h6><img src="assets/images/tools/ps.png" class="logo animated fadeIn"> Adobe Photoshop</h6></li>
+         		<li><h6><img src="assets/images/tools/sublime.png" class="logo animated fadeIn"> Sublime Text</h6></li>
+         		<li><h6><img src="assets/images/tools/github.png" class="logo animated fadeIn"> Github</h6></li>
+         		<li><h6><img src="assets/images/tools/gitlab.png" class="logo animated fadeIn"> Gitlab</h6></li>
 			</ul>
 			</div>
 		</div>
@@ -143,9 +180,9 @@
 		<div class="row">
 			<div class="col-6 col-sm-9 offset-md-2 "> <!-- Knowledge -->
 			<ul class="tools">
-         		<li><img src="assets/images/knowledge/windows.png" class="logo animated fadeIn"> Windows OS</li>
-         		<li><img src="assets/images/knowledge/linux.png" class="logo animated fadeIn"> Linux OS</li>
-         		<li><img src="assets/images/knowledge/ms.png" class="logo animated fadeIn"> Microsoft Office</li>
+         		<li><h6><img src="assets/images/knowledge/windows.png" class="logo animated fadeIn"> Windows OS</h6></li>
+         		<li><h6><img src="assets/images/knowledge/linux.png" class="logo animated fadeIn"> Linux OS</h6></li>
+         		<li><h6><img src="assets/images/knowledge/ms.png" class="logo animated fadeIn"> Microsoft Office</h6></li>
 			</ul>
 			</div>
 		</div>
@@ -165,12 +202,12 @@
             <div class="col-4"> <!-- 1st side project -->
             	<div class="row" id="project1"> 
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                  	<img class="portfolio-proj-image1" src="assets/images/portfolio/sampleproj.png">  
+                  	<img class="portfolio-proj-image1" src="assets/images/portfolio/project1.png">  
                   	<div class="overlay">
-                  	<h4 class="portfolio-proj-title">OPM Music Central</h4>
-                  	<p class="portfolio-proj-desc1">Lorem ipsum</p>           
+                  	<h4 class="portfolio-proj-title mt-5">OPM Music Central</h4>
+                  	<p class="portfolio-proj-desc1">Static Website</p>           
                   	<p class="portfolio-proj-desc2">Uses: HTML, CSS, Bootstrap</p> 
-       				<a class="btn btn-rounded portfolio-proj-btn" href="https://aldrinmanahan.github.io/opm-music-central/csp-1/index.html" role="button" target="_blank">View Project</a>
+       				<a class="btn btn-rounded portfolio-proj-btn" href="https://aldrinmanahan.github.io/opm-music-central" role="button" target="_blank">View Project</a>
                 	</div>
                 </div>
                 </div>  
@@ -181,12 +218,12 @@
                
 
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
-               	 	<img class="img portfolio-proj-image2" src="assets/images/portfolio/blank.png">
+               	 	<img class="portfolio-proj-image2" src="assets/images/portfolio/project2.png">
                 	<div class="overlay">
-                	<h4 class="portfolio-proj-title">Capstone Project 2</h4>
-                  	<p class="portfolio-proj-desc1">Lorem ipsum</p>           
-                  	<p class="portfolio-proj-desc2">Uses: HTML, CSS, Bootstrap</p> 
-       				<a class="btn btn-rounded portfolio-proj-btn" href="https://github.io" role="button" target="_blank">View Project</a>
+                	<h4 class="portfolio-proj-title mt-5">Sole Stop PH</h4>
+                  	<p class="portfolio-proj-desc1">E-Commerce</p>           
+                  	<p class="portfolio-proj-desc2">Uses: HTML, CSS, MDBootstrap, <br>JQuery, Javascript, PHP and MySQL</p> 
+       				<a class="btn btn-rounded portfolio-proj-btn" href="https://solestopph.000webhostapp.com/" role="button" target="_blank">View Project</a>
                 	</div>
             	</div>
         	</div>
@@ -195,11 +232,11 @@
             <div class="row" id="project3"> 
                 
                 	<div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                	<img class="img portfolio-proj-image3" src="assets/images/portfolio/blank.png">
+                	<img class="img portfolio-proj-image3" src="assets/images/portfolio/project3.png">
                 		<div class="overlay">
-                		<h4 class="portfolio-proj-title">Capstone Project 3</h4>
-                  		<p class="portfolio-proj-desc1">Lorem ipsum</p>           
-                  		<p class="portfolio-proj-desc2">Uses: HTML, CSS, Bootstrap</p> 
+                		<h4 class="portfolio-proj-title mt-5">Trail Adventures PH</h4>
+                  		<p class="portfolio-proj-desc1">Blog Site</p>           
+                  		<p class="portfolio-proj-desc2">Uses: Laravel</p> 
        					<a class="btn btn-rounded portfolio-proj-btn" href="https://github.io" role="button" target="_blank">View Project</a>
                 		</div>
                 	</div>
@@ -241,7 +278,19 @@
     </footer>
    </div> <!-- endWrapper -->
 
-	<!-- external custom js -->
+
+    <script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("navbar").style.top = "0";
+	    } else {
+	        document.getElementById("navbar").style.top = "-50px";
+	    }
+	}
+	</script>
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -250,7 +299,7 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
    <script src="js/wow.min.js"></script>
-	<script>new WOW().init();</script>
+   <script>new WOW().init();</script>
 
    <!-- external bootstrap js -->
    <script src="assets/js/bootstrap.min.js"></script>

@@ -14,6 +14,11 @@
   background-image: url("../images/background/bg.jpg"); 
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
 }
 
 #header /*LANDING PAGE*/
@@ -109,9 +114,11 @@ img
 
 h1 
 {
-  font-size: 60px;
+  font-size: 80px;
   font-family: 'Anton', sans-serif;
   padding-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
 h2 
@@ -124,12 +131,12 @@ h2
 p 
 {
   font-size: 15px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif; 
 }
 
 .development /*DEVELOPMENT*/
 {
-  background-color: #DEDEE0;
+  background-color: #171717;
   background-attachment: fixed;
 }
 
@@ -139,7 +146,6 @@ h3
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-
 }
 
 h4 
@@ -149,10 +155,23 @@ h4
   font-weight: bold;
 }
 
+h5
+{
+  font-family: 'Hind Siliguri', sans-serif;
+  padding-left: 20px;
+}
+
+h6
+{
+  font-family: 'Hind Siliguri', sans-serif;
+  padding-left: 20px;
+}
+
 .title
 {
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 23px;
+  color: white;
 }
 
 .progress /*PROGRESS*/
@@ -160,23 +179,29 @@ h4
   width: 100%;
 }
 
-#html 
+.progress-bar 
 {
-  background-color: #e44d26; /*html orange*/
-  border: 1px solid #e44d26;
-
+  color: white;
+  font-weight: bolder;
 }
 
-#css 
+#skills, .tools
 {
-  background-color: #264de4; /*css blue*/
-  border: 1px solid #264de4;
+  color: white;
 }
 
-#bootstrap 
+#html,
+#css,
+#js,
+#php,
+#jquery,
+#sql,
+#bootstrap,
+#laravel 
 {
-  background-color: #62488a; /*bootstrap purple*/
-  border: 1px solid #62488a;
+  background-color: black; /*html orange*/
+  /*border: 1px groove #e44d26;*/
+  border: 1px groove white;
 }
 
 ul 
@@ -195,7 +220,6 @@ i
 {
   color: #2F2F32;
 }
-
 
 /*Porfolio*/
 
@@ -253,7 +277,8 @@ i
 .portfolio-proj-image3 {
   display: block;
   width: 100%; 
-  height: auto;
+  height: 100%;
+  padding-bottom: 50px; 
 }
 
 .overlay {
@@ -269,18 +294,11 @@ i
   background-color: #E3E3E5;
 }
 
-#project1:hover .overlay {
-  opacity: 1;
-}
-
-#project2:hover .overlay {
-  opacity: 1;
-}
-
+#project1:hover .overlay,
+#project2:hover .overlay,
 #project3:hover .overlay {
-  opacity: 1;
+  opacity: .9;
 }
-
 
 .socials /*CONTACTS*/
 {
@@ -430,3 +448,10 @@ h4 {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+}
