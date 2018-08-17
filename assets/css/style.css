@@ -138,6 +138,7 @@ p
 {
   background-color: #171717;
   background-attachment: fixed;
+  height: 100vh;
 }
 
 h3 
@@ -378,6 +379,11 @@ i
   background-color: #EAEAED;
   color: #171717; 
   font-family: 'Hind Siliguri', sans-serif;
+  font-size: 12px;
+}
+
+#downloadBtn {
+  text-transform: capitalize;
   font-size: 12px;
 }
 

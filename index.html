@@ -8,8 +8,11 @@
 
 	<title> Portfolio </title>
 
-	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -30,51 +33,51 @@
 </head>
 
 	<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-2"> <!-- startNav -->
-		<a class="nav-brand" href="#" id="logo"></a>
+		<a class="nav-brand" href="" id="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse ml-2" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#top"> MY PORTFOLIO</a></li>
+					<li class="nav-item"><a class="nav-link active smooth-scroll" href="#top"> MY PORTFOLIO</a></li>
 				</ul>	
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"> ABOUT</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#development"> DEVELOPMENT</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"> PORTFOLIO</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"> CONTACT</a></li>
+					<li class="nav-item"><a class="nav-link smooth-scroll" href="#about"> ABOUT</a></li>
+					<li class="nav-item"><a class="nav-link smooth-scroll" href="#development"> DEVELOPMENT</a></li>
+					<li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio"> PROJECTS</a></li>
+					<li class="nav-item"><a class="nav-link smooth-scroll" href="#contact"> CONTACT</a></li>
 				</ul>
 			</div>
 		</nav> <!-- endNav -->
 
 <section id="header"> <!-- landingPage -->
 	<div class="container-fluid"> 
-		<h1 class="display-6 animated fadeIn">Aldrin Manahan</h1> 
-		<h2 class="display-6 animated fadeIn mt-3">Front-End Web Developer</h2>
-    	<a href="#about"><i class="fas fa-chevron-circle-down animated fadeInDown mt-3"></i></a> <!-- downButton -->
+		<h1 class="display-6 wow fadeIn">Aldrin Manahan</h1> 
+		<h2 class="display-6 wow fadeIn mt-3">Front-End Web Developer</h2>
+    	<a href="#about" class="smooth-scroll"><i class="fas fa-chevron-circle-down wow fadeInDown infinite mt-3"></i></a>
     </div> 
 </section> 
 
 <body>	
 <div class="wrapper">
 	<div class="container-fluid"> <!-- aboutMe -->
-	<section id="about" class="about animated fadeIn">
-	<div class="jumbotron animated slideInLeft">
+	<section id="about" class="about wow fadeIn">
+	<div class="jumbotron wow slideInLeft">
 	<h3>ABOUT ME</h3> 
 	</div>
 	<div class="row">
 		<div class="col-md-3 col-sm-2"></div>
 		<div class="col-md-6 col-sm-8 text-md-center text-center about-info mb-5"> <!-- aboutMe info -->
-			<img src="assets/images/me1.jpg" class="me animated fadeIn img-circle text-center profile-img">			
+			<img src="assets/images/m.jpg" class="me wow fadeIn img-circle text-center profile-img">			
 			<p class="text-center">I am Aldrin Manahan, a Web Developer from Manila, PH. I'm an Information and Communications Technology Graduate and is currently learning full-stack web development at Tuitt Philippines. </p>
 		</div>
 		<div class="col-md-3 col-sm-2"></div>
 	</div>
   </section> <!-- end aboutMe -->
 
-  	<section id="development" class="development animated fadeIn"> <!-- Development -->
-  	<div class="jumbotron animated slideInRight">
+  	<section id="development" class="development wow fadeIn"> <!-- Development -->
+  	<div class="jumbotron wow slideInRight">
 	<h3>DEVELOPMENT</h3>
 	</div>
 	<div class="container-fluid">
@@ -84,14 +87,14 @@
 		<div class="col-10 col-sm-4 col-md-6"> 
 			<h3 class="title">Skills</h3>
 			<div class="row mt-5">
-				<img src="assets/images/dev/html.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/html.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="html">
   						<div class="progress-bar progress-bar-striped" id="html" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"><class="val">85%</div>
 					</div>
 				</div>	
-				<img src="assets/images/dev/css.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/css.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="css">
@@ -100,14 +103,14 @@
 				</div>	
 			</div>
 			<div class="row">
-				<img src="assets/images/dev/js.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/js.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="js">
   						<div class="progress-bar progress-bar-striped" id="js" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
 					</div>
 				</div>	
-				<img src="assets/images/dev/php.png" class="logo animated fadeIn">	
+				<img src="assets/images/dev/php.png" class="logo wow fadeIn">	
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="php">
@@ -116,14 +119,14 @@
 				</div>		
 			</div>
 			<div class="row">  
-				<img src="assets/images/dev/jquery.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/jquery.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="jquery">
   						<div class="progress-bar progress-bar-striped" id="jquery" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
 					</div>
 				</div>		
-				<img src="assets/images/dev/sql.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/sql.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="sql">
@@ -132,14 +135,14 @@
 				</div>
 			</div>
 			<div class="row">	
-				<img src="assets/images/dev/bootstrap.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/bootstrap.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="bootstrap">
   						<div class="progress-bar progress-bar-striped" id="bootstrap" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
 					</div>
 				</div>		
-				<img src="assets/images/dev/laravel.png" class="logo animated fadeIn">
+				<img src="assets/images/dev/laravel.png" class="logo wow fadeIn">
 				<div class="col">
 					<br>
 					<div class="progress bg-light" id="laravel">
@@ -164,10 +167,10 @@
 		<div class="row">
 			<div class="col-6 col-sm-8 offset-md-2"> <!-- Tools -->
 			<ul class="tools">
-         		<li><h6><img src="assets/images/tools/ps.png" class="logo animated fadeIn"> Adobe Photoshop</h6></li>
-         		<li><h6><img src="assets/images/tools/sublime.png" class="logo animated fadeIn"> Sublime Text</h6></li>
-         		<li><h6><img src="assets/images/tools/github.png" class="logo animated fadeIn"> Github</h6></li>
-         		<li><h6><img src="assets/images/tools/gitlab.png" class="logo animated fadeIn"> Gitlab</h6></li>
+         		<li><h6><img src="assets/images/tools/ps.png" class="logo wow fadeIn"> Adobe Photoshop</h6></li>
+         		<li><h6><img src="assets/images/tools/sublime.png" class="logo wow fadeIn"> Sublime Text</h6></li>
+         		<li><h6><img src="assets/images/tools/github.png" class="logo wow fadeIn"> Github</h6></li>
+         		<li><h6><img src="assets/images/tools/gitlab.png" class="logo wow fadeIn"> Gitlab</h6></li>
 			</ul>
 			</div>
 		</div>
@@ -180,18 +183,18 @@
 		<div class="row">
 			<div class="col-6 col-sm-9 offset-md-2 "> <!-- Knowledge -->
 			<ul class="tools">
-         		<li><h6><img src="assets/images/knowledge/windows.png" class="logo animated fadeIn"> Windows OS</h6></li>
-         		<li><h6><img src="assets/images/knowledge/linux.png" class="logo animated fadeIn"> Linux OS</h6></li>
-         		<li><h6><img src="assets/images/knowledge/ms.png" class="logo animated fadeIn"> Microsoft Office</h6></li>
+         		<li><h6><img src="assets/images/knowledge/windows.png" class="logo wow fadeIn"> Windows OS</h6></li>
+         		<li><h6><img src="assets/images/knowledge/linux.png" class="logo wow fadeIn"> Linux OS</h6></li>
+         		<li><h6><img src="assets/images/knowledge/ms.png" class="logo wow fadeIn"> Microsoft Office</h6></li>
 			</ul>
 			</div>
 		</div>
 	</div> <!-- endContainer -->
 	</section>
 
-  	<section id="portfolio" class="portfolio animated fadeIn"> <!-- startPortfolio -->
-  	<div class="jumbotron animated slideInLeft">
-	<h3>PORTFOLIO</h3>
+  	<section id="portfolio" class="portfolio wow fadeIn"> <!-- startPortfolio -->
+  	<div class="jumbotron wow slideInLeft">
+	<h3>PROJECTS</h3>
 	</div>
 	<div class="container-fluid">
 	<div class="row">
@@ -236,7 +239,7 @@
                 		<div class="overlay">
                 		<h4 class="portfolio-proj-title mt-5">Trail Adventures PH</h4>
                   		<p class="portfolio-proj-desc1">Blog Site</p>           
-                  		<p class="portfolio-proj-desc2">Uses: Laravel</p> 
+                  		<p class="portfolio-proj-desc2">Uses: HTML, CSS, MDBootstrap, JQuery, <br>Javascript, PHP, MySQL and Laravel Framework</p> 
        					<a class="btn btn-rounded portfolio-proj-btn" href="http://trailadventuresph.000webhostapp.com/" role="button" target="_blank">View Project</a>
                 		</div>
                 	</div>
@@ -246,9 +249,9 @@
       </div><!-- endPortfolio -->
    	</section>
 
-  	<section id="contact" class="animated fadeIn">
-  	<div class="jumbotron animated slideInRight">
-	<h3>CONTACT ME</h3> <!-- contactInfo -->
+  	<section id="contact" class="wow fadeIn">
+  	<div class="jumbotron wow slideInRight">
+	<h3>CONTACT</h3> <!-- contactInfo -->
 	</div>
 	<div class="container-fluid">
 	<div class="row">
@@ -256,6 +259,8 @@
 		<div class="col-sm-6">
 			<br>
 			<h4> Feel free to send me a message: <i class="far fa-envelope"></i> <a class="email" href="mailto:aldrinmanahan@gmail.com" target="_top">aldrinmanahan@gmail.com</a></h4>
+
+			<a href="assets/images/portfolio/project3.png" download><button id="downloadBtn" class="btn btn-sm btn-outline-elegant d-block mx-auto">Download Resume <i class="fa fa-download"></i></button></a>
 			<div class="text-center contact-social-icons">
           	<p>Or find me on:</p>
           		<ul class="socials">
@@ -278,30 +283,20 @@
     </footer>
    </div> <!-- endWrapper -->
 
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
+	<!-- Script JS -->
+	<script src="assets/js/script.js"></script>
+	<!-- WOW JS -->
+	<script src="assets/js/wow.min.js"></script>
+   	<!-- external bootstrap js -->
+   	<script src="assets/js/bootstrap.min.js"></script>
 
-    <script>
-    // When the user scrolls down 20px from the top of the document, slide down the navbar
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	        document.getElementById("navbar").style.top = "0";
-	    } else {
-	        document.getElementById("navbar").style.top = "-50px";
-	    }
-	}
-	</script>
-
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-   <script src="js/wow.min.js"></script>
-   <script>new WOW().init();</script>
-
-   <!-- external bootstrap js -->
-   <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
