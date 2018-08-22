@@ -22,7 +22,7 @@
 }
 
 .typewriter h1 {
-  width: 60%;
+  width: 100%;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -36,7 +36,7 @@
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 60% }
+  to { width: 100% }
 }
 
 /* The typewriter cursor effect */
@@ -501,9 +501,9 @@ h6 {
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
 .portfolio-proj-title {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .portfolio-proj-btn {
@@ -529,10 +529,3 @@ h6 {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-
-}
