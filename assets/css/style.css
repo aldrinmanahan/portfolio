@@ -439,20 +439,16 @@ i
   50% { border-color: orange; }
 }
 
+#resumeBtn {
+  
+}
 .portfolio-proj-title {
   font-size: 11px;
 }
 
 .portfolio-proj-btn {
   font-size: 9px;
-}
-
-.portfolio-proj-desc2 {
-  display: none;
-
-}
-.portfolio-proj-desc1 {
-  display: none;
+  margin-top: 40px;
 }
 
 h1 {
@@ -481,7 +477,24 @@ h4 {
 {
   background-color: #DEDEE0;
   background-attachment: fixed;
-  height: 150vh;
+  height: 120vh;
+}
+
+#aboutMe 
+{
+  margin:20px;
+}
+
+.tools {
+  width: 150%;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+#hiddenMdb {
+  display: none;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -490,18 +503,18 @@ h4 {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
 .portfolio-proj-title {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .portfolio-proj-btn {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .portfolio-proj-desc2 {
-  font-size: 11px;
+  font-size: 15px;
 }
 .portfolio-proj-desc1 {
-  display: none;
+  font-size: 15px;
 }
 
 .development /*DEVELOPMENT*/

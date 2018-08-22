@@ -71,11 +71,11 @@
 	</div>
 	<div class="row">
 		<div class="col-md-3 col-sm-2"></div>
-		<div class="col-md-6 col-sm-8 text-md-center text-center about-info mb-5"> <!-- aboutMe info -->
+		<div class="col-md-6 col-sm-8 text-md-center text-center about-info mb-5" id="aboutMe"> <!-- aboutMe info -->
 			<img src="assets/images/me1.jpg" class="me wow fadeIn img-circle text-center profile-img wow fadeIn" data-wow-delay=".5s">			
 			<p class="text-center wow fadeIn" data-wow-delay="1s">I am Aldrin Manahan, a Web Developer from Manila, PH. I'm an Information and Communications Technology Graduate and is interested to pursue a long-term career in the IT industry. </p> 
 			<br>
-			<a href="https://drive.google.com/file/d/1zYNzc0Vmnb08epfSObU6sVYbIEdCcMZY/view?usp=sharing" target="_blank"><button class="btn btn-outline-elegant wow zoomIn" data-wow-delay="1s" type="submit" style="border-radius: 50px;text-transform: capitalize;"></i> View my Resume</button></a>
+			<a href="https://drive.google.com/file/d/1zYNzc0Vmnb08epfSObU6sVYbIEdCcMZY/view?usp=sharing" target="_blank"><button id="resumeBtn" class="btn btn-outline-elegant btn-sm wow zoomIn" data-wow-delay="1s" type="submit" style="border-radius: 50px;text-transform: capitalize;"></i> View my Resume</button></a>
 		</div>
 		<div class="col-md-3 col-sm-2"></div>
 	</div>
@@ -90,7 +90,7 @@
 		<div class="col-12 text-center">
 			<h3 class="title">Skills</h3>
 		</div>
-		<div class="col-lg-5 offset-lg-4 col-md-12 offset-md-1 col-9 offset-1 d-flex mx-auto wow fadeIn" data-wow-delay=".5s"> 
+		<div class="col-lg-5 offset-lg-4 col-md-11 offset-md-1 col-10 offset-2 d-flex mx-auto wow fadeIn" data-wow-delay=".5s"> 
 		<div class="row mt-5">
 			<img src="assets/images/dev/html.png" class="logo wow fadeIn">
 			<img src="assets/images/dev/css.png" class="logo wow fadeIn">
@@ -107,7 +107,7 @@
 			<img src="assets/images/dev/bootstrap.png" class="logo wow fadeIn">	
 			<img src="assets/images/dev/laravel.png" class="logo wow fadeIn">
 		</div>
-		<div class="row mt-5 ml-3">	
+		<div class="row mt-5 ml-3" id="hiddenMdb">	
 			<img src="assets/images/dev/mdb.png" class="logo wow fadeIn">	
 		</div>
 	</div>
@@ -160,7 +160,7 @@
         <div class="container" id="projects">
         
         <div class="row portfolio-proj"> <!-- Three-sided project row-->
-            <div class="col-lg-4 col-8 d-flex mx-auto wow fadeInLeft"> <!-- 1st side project -->
+            <div class="col-lg-4 col-9 d-flex mx-auto wow fadeInLeft"> <!-- 1st side project -->
             	<div class="row" id="project1"> 
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                   	<img class="portfolio-proj-image1" src="assets/images/portfolio/project1.png">  
@@ -174,7 +174,7 @@
                 </div>  
             </div>
 
-            <div class="col-lg-4 col-8 d-flex mx-auto wow fadeInUp" data-wow-delay=".5s"> <!-- 2nd side project -->
+            <div class="col-lg-4 col-9 d-flex mx-auto wow fadeInUp" data-wow-delay=".5s"> <!-- 2nd side project -->
               <div class="row" id="project2"> 
                
 
@@ -189,7 +189,7 @@
             	</div>
         	</div>
 		</div>
-        <div class="col-lg-4 col-8 d-flex mx-auto wow fadeInRight" data-wow-delay="1s"> <!-- 3rd side project -->
+        <div class="col-lg-4 col-9 d-flex mx-auto wow fadeInRight" data-wow-delay="1s"> <!-- 3rd side project -->
             <div class="row" id="project3"> 
                 
                 	<div class="col-lg-12 col-md-12 col-sm-12 text-center">
