@@ -138,7 +138,7 @@ p
 {
   background-color: #DEDEE0;
   background-attachment: fixed;
-  height: 100vh;
+  height: 110vh;
 }
 
 h3 
@@ -420,9 +420,6 @@ i
   50% { border-color: orange; }
 }
 
-#resumeBtn {
-  
-}
 .portfolio-proj-title {
   font-size: 11px;
 }
@@ -504,7 +501,7 @@ h6 {
   background-attachment: fixed;
   height: 80vh;
 }
-
+}
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
