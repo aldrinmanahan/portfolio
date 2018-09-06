@@ -138,7 +138,7 @@ p
 {
   background-color: #DEDEE0;
   background-attachment: fixed;
-  height: 110vh;
+  height: 110vh!important;
 }
 
 h3 
@@ -236,7 +236,7 @@ i
 } 
 
 .portfolio-proj-title {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Hind Siliguri', sans-serif;
   padding-bottom: 5px;
@@ -244,8 +244,9 @@ i
 }
 
 .portfolio-proj-desc1, 
-.portfolio-proj-desc2, {
+.portfolio-proj-desc2 {
   font-family: 'Archivo Narrow', sans-serif;
+  font-size: 16px;
 }
 .portfolio-proj-btn {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -261,7 +262,7 @@ i
   border: 1px solid #171717;
   border-radius: 50px;
   margin-bottom: 1.25em; 
-  margin-top: 2.50em;
+  margin-top: 3.50em;
   -webkit-transition-duration: 0.5s;
   -webkit-box-shadow: 0px 0px 0 0 #0B0B0B inset , 0px 0px 0 0 #0B0B0B inset;
 }
@@ -421,12 +422,17 @@ i
 }
 
 .portfolio-proj-title {
-  font-size: 11px;
+  font-size: 15px;
 }
 
+.portfolio-proj-desc1, 
+.portfolio-proj-desc2 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 12px;
+}
 .portfolio-proj-btn {
   font-size: 9px;
-  margin-top: 40px;
+  margin-bottom: 1.25em; 
 }
 
 h1 {
@@ -455,7 +461,7 @@ h4 {
 {
   background-color: #DEDEE0;
   background-attachment: fixed;
-  height: 120vh;
+  height: 120vh!important;
 }
 
 #aboutMe 
@@ -486,6 +492,7 @@ h6 {
 
 .portfolio-proj-btn {
   font-size: 15px;
+  margin-bottom: 1.25em; 
 }
 
 .portfolio-proj-desc2 {
@@ -499,7 +506,7 @@ h6 {
 {
   background-color: #171717;
   background-attachment: fixed;
-  height: 80vh;
+  height: 80vh!important;
 }
 }
 /* Large devices (desktops, 992px and up)*/
