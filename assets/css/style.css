@@ -5,6 +5,7 @@
 	box-sizing: border-box;
   font-family: 'Hind Siliguri', sans-serif;
 }
+
 .navbar /*NAVBAR*/
 {
   
@@ -39,8 +40,8 @@
 
  .logo 
 {
-  height: 75px;
-  width: 80px;
+  height: 85px;
+  width: 90px;
 }
 
 .jumbotron 
@@ -75,11 +76,6 @@
 {
   clear: both;
   margin-top: 10px; 
-}
-
-img 
-{
-  width: 100%; 
 }
 
 .profile-img 
@@ -124,7 +120,7 @@ h1
 h2 
 {
   font-family: 'Monda', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -132,13 +128,6 @@ p
 {
   font-size: 15px;
   font-family: 'Roboto Condensed', sans-serif; 
-}
-
-.development /*DEVELOPMENT*/
-{
-  background-color: #DEDEE0;
-  background-attachment: fixed;
-  height: 110vh!important;
 }
 
 h3 
@@ -174,42 +163,6 @@ h6
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 23px;
   color: black;
-}
-
-.progress /*PROGRESS*/
-{
-  width: 100%;
-}
-
-.progress-bar 
-{
-  color: white;
-  font-weight: bolder;
-}
-
-#skills, .tools
-{
-  color: white;
-}
-
-#html,
-#css,
-#js,
-#php,
-#jquery,
-#sql,
-#bootstrap,
-#laravel 
-{
-  background-color: black; /*html orange*/
-  /*border: 1px groove #e44d26;*/
-  border: 1px groove white;
-}
-
-ul 
-{
-  list-style-type: none;
-  margin-left: 40px;
 }
 
 li 
@@ -287,6 +240,8 @@ i
   width: 100%; 
   height: 100%;
   padding-bottom: 50px; 
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .overlay {
@@ -300,6 +255,8 @@ i
   opacity: 0;
   transition: .7s ease;
   background-color: #E3E3E5;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 #project1:hover .overlay,
@@ -327,13 +284,13 @@ i
   color: #0077b5;
 }
 
-/*.fa-twitter {
+.fa-twitter {
   color: #00aced;
 }
 
 .fa-instagram {
   color: #517fa4;
-}*/
+}
 
 .fa-github:hover, 
 .fa-gitlab:hover, 
@@ -475,10 +432,6 @@ h4 {
 
 h6 {
   font-size: 10px;
-}
-
-#hiddenMdb {
-  display: none;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
