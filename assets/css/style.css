@@ -216,7 +216,7 @@ i
   border-radius: 50px;
   margin-bottom: 1.25em; 
   margin-top: 3.50em;
-  -webkit-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.3s;
   -webkit-box-shadow: 0px 0px 0 0 #0B0B0B inset , 0px 0px 0 0 #0B0B0B inset;
 }
 
@@ -224,7 +224,6 @@ i
   background: #171717;
   color: #EAEAED; 
   border: 1px solid #F5F5F5;
-  -webkit-transition-duration: 0.5s;
   -webkit-box-shadow: 50px 0px 0 0 #0B0B0B inset , -50px 0px 0 0 #0B0B0B inset;
 }
 
@@ -354,30 +353,6 @@ i
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
-.typewriter h1 {
-  width: 80%;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 80% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
 .portfolio-proj-title {
   font-size: 15px;
 }
@@ -393,41 +368,26 @@ i
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
-p {
-  font-size: 12px;
+p,
+h4 {
+  font-size: 13px;
 }
 
 .title, 
 h2,
 h3 {
-  font-size: 12px;
+  font-size: 16px;
 } 
 li {
   text-align: left;
-  font-size: 10px;
+  font-size: 11px;
 }
 .footer, 
-h4 {
-  font-size: 10px;
-}
-
-.development /*DEVELOPMENT*/
 {
-  background-color: #DEDEE0;
-  background-attachment: fixed;
-  height: 120vh!important;
-}
-
-#aboutMe 
-{
-  margin:20px;
-}
-
-.tools {
-  width: 150%;
+  font-size: 11px;
 }
 
 h6 {
