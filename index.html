@@ -7,23 +7,23 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 	<title> Aldrin Manahan | Web Developer Portfolio </title>
-
+  
 	<!-- Bootstrap core CSS -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Material Design Bootstrap -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet"> 
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Narrow|Comfortaa|Hind+Siliguri|Monda|Open+Sans+Condensed:300|Roboto|Quicksand:300|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Comfortaa|Hind+Siliguri|Poppins|Montserrat|Open+Sans+Condensed:300|Raleway|Quicksand|Source+Sans+Pro" rel="stylesheet">
 
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
@@ -32,15 +32,14 @@
 	<link rel="icon" type="image/gif/png" href="assets/images/favicon.png">
 </head>
 
-	<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-2"> <!-- navbar -->
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top"> <!-- navbar -->
 		<a class="nav-brand" href="" id="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
 			</button>
-
-			<div class="collapse navbar-collapse ml-2" id="navbarNav">
+			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link active smooth-scroll" href="#header"> ALDRIN MANAHAN</a></li>
+					<li class="nav-item"><a class="nav-link active smooth-scroll" href="#header">WEB DEVELOPER PORTFOLIO</a></li>
 				</ul>	
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link smooth-scroll" href="#about"> ABOUT</a></li>
@@ -51,46 +50,35 @@
 		</nav> <!-- endNavbar -->
 
 <section id="header"> <!-- landingPage -->
-	<div class="container-fluid">
-		<div class="typewriter">
-		<h1 class="display-6" >Aldrin Manahan</h1>
-		</div>	
-		<p class="blinking-cursor"></p>
-		<h2 class="display-6 wow fadeIn mt-3">Web Developer</h2>
-    	<a href="#about" class="smooth-scroll"><i class="fas fa-chevron-circle-down wow fadeInDown infinite mt-3"></i></a>
+	<div class="container">
+		<h1 class="landingPageName">Aldrin Manahan</h1>
+		<h2 class="landingPageTitle wow fadeIn mt-3">Web Developer</h2>
+    	<a href="#about" class="smooth-scroll"><i class="fas fa-chevron-circle-down fa-lg wow fadeInDown infinite mt-3"></i></a>
     </div> 
 </section> 
 
 <body>	
-<div class="wrapper">
-	<div class="container-fluid"> <!-- about -->
 	<section id="about" class="about wow fadeIn">
 	<div class="jumbotron wow slideInLeft">
-	<h3>ABOUT</h3> 
+	<h3 class="jumbotronTitle">ABOUT</h3> 
 	</div>
         <div class="container">
             <h3 class="title">My Profile</h3>
-            <div class="row mt-4 mb-4">
-
-                <div class="col-md-6 wow fadeIn" data-wow-duration="2s" data-wow-delay=".5s" id="profile">
-                    <p align="center"><img src="assets/images/me1.jpg" class="me wow fadeIn img-circle flex-center profile-img wow fadeIn" data-wow-delay=".5s">
-                    <a href="https://drive.google.com/file/d/1q96utEuwYY27qMM1vQpmhfhgdqVWmbjU/view?usp=sharing" target="_blank"><button id="resumeBtn" class="btn btn-outline-elegant wow zoomIn" data-wow-delay="1s" type="submit" style="border-radius: 50px;text-transform: capitalize;"></i> View my Resume</button></a></p>
+            <div class="row">
+                <div class="col-md-6 wow fadeIn mt-4" data-wow-duration="2s" data-wow-delay=".5s" id="profile">
+                    <p align="center" class="aling-center about1stSec"><img src="assets/images/me1.jpg" class="me wow fadeIn img-circle flex-center profile-img wow fadeIn" data-wow-delay=".5s">
+                    <a href="https://drive.google.com/file/d/1q96utEuwYY27qMM1vQpmhfhgdqVWmbjU/view?usp=sharing" target="_blank"><button id="resumeBtn" class="btn resume-btn wow zoomIn" data-wow-delay="1s" type="submit" style="border-radius: 50px;text-transform: capitalize;"></i>VIEW RESUME</button></a></p>
                 </div>
-
                 <div class="col-md-6 wow fadeIn mt-4" data-wow-duration="2s" data-wow-delay=".5s">
-                  	<p align="justify">
-                   	I am a Web Developer from Manila, Philippines. I am a graduate of BS Information and Communications Technology at San Beda College, Manila and is interested to pursue a long-term career in the IT industry. 
-                   	</p>
-
-                    <p align="justify">My interest in designing and developing user interfaces is what drove me to be a Front End Web Developer. I have a basic understanding of color combinations, basic photo editing, and I ensure to produce high-quality Websites with Responsive Web Design that can be accessed on any devices.
-                    </p> 
+                  	<p class="aboutPar">Hello, I am Aldrin Manahan, a Web Developer from Manila, Philippines. I am a college graduate from San Beda College, Manila where I took up a degree in Bachelor of Science in Information and Communications Technology and is interested to pursue a long-term career in the IT industry. </p>
+                    <p class="aboutPar">My interest in designing and developing user interfaces is what drove me to be a Front End Web Developer. I have a basic understanding of color combinations, basic photo editing and I ensure to produce high-quality Websites with Responsive Web Design that can be accessed on any devices.</p>
                 </div>
             </div>
         
             <h3 class="title">Development Skills</h3>
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-lg-4 col-md-6 my-2 wow fadeIn" data-wow-delay=".5s">
-                 <h4>Front-end Skills</h4>
+                 <h4 class="devTitle">Front-end Skills</h4>
                  <ul class="list-unstyled list-inline text-center">
                     <li class="list-inline-item">
                         <img src="assets/images/dev/html.png" class="img-fluid img-responsive logo" alt="html5">
@@ -114,7 +102,7 @@
             </div>
 
             <div class="col-lg-5 col-md-6 my-2 wow fadeIn" data-wow-delay=".7s">
-                <h4>Tools/Knowledge</h4>
+                <h4 class="devTitle">Tools/Knowledge</h4>
                 <ul class="list-unstyled list-inline text-center">
                     <li class="list-inline-item">
                         <img src="assets/images/tools/sublime.png" class="img-fluid img-responsive logo" alt="sublime-text">
@@ -141,7 +129,7 @@
             </div>
 
             <div class="col-lg-3 col-md-12 my-2 wow fadeIn" data-wow-delay=".9s">
-                <h4>Back-end Skills</h4>
+                <h4 class="devTitle">Back-end Skills</h4>
                 <ul class="list-unstyled list-inline text-center">
                     <li class="list-inline-item">
                         <img src="assets/images/dev/sql.png" class="img-fluid img-responsive logo" width="100" height="100" alt="mysql">
@@ -159,61 +147,61 @@
 
   	<section id="portfolio" class="portfolio wow fadeIn"> <!-- startPortfolio -->
   	<div class="jumbotron wow slideInLeft">
-	<h3>PROJECTS</h3>
+	<h3 class="jumbotronTitle">PROJECTS</h3>
 	</div>
-	<div class="container-fluid">
+	<div class="container">
 	<div class="row">
 
-        <div class="container" id="projects">
+        <div class="container-fluid" id="projects">
         
         <div class="row portfolio-proj"> <!-- Two-sided project row-->
-            <div class="col-lg-6 col-9 d-flex mx-auto wow fadeInLeft"> <!-- 1st side project -->
+            <div class="col-lg-6 col-md-9 d-flex mx-auto wow fadeInLeft"> <!-- 1st side project -->
                 <div class="row" id="project1"> 
-                <div class="col-lg-12 col-md-10 offset-md-1 col-sm-12 text-center">
+                <div class="col-md-12 text-center">
                     <img class="portfolio-proj-image1" src="assets/images/portfolio/proj1.png">  
                     <div class="overlay">
                         <h4 class="portfolio-proj-title">OPM Music Central</h4>
-                        <p class="portfolio-proj-desc1">A Website which features bands/artists from the local music scene.</p>                 
-                        <p class="portfolio-proj-desc2">Technology used: HTML 5, CSS 3, <br>Bootstrap, JavaScript</p> 
+                        <p class="portfolio-proj-desc1">A Website which features artists from the local music scene.</p>                 
+                        <p class="portfolio-proj-desc2">Technology used: <br>HTML 5, CSS 3, Bootstrap, JavaScript</p> 
                         <a class="btn btn-rounded portfolio-proj-btn" href="https://aldrinmanahan.github.io/opm-music-central" role="button" target="_blank">View Project</a>
                     </div>
                 </div>
                 </div>  
             </div>
-            <div class="col-lg-6 col-9 d-flex mx-auto wow fadeInUp" data-wow-delay=".5s"> <!-- 2nd side project -->
+            <div class="col-lg-6 col-md-9 d-flex mx-auto wow fadeInUp" data-wow-delay=".5s"> <!-- 2nd side project -->
               <div class="row" id="project2"> 
-                	<div class="col-lg-12 col-md-10 offset-md-1 col-sm-12 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                	<div class="col-md-12 text-center"><!--flipped on small, unflipped on large-->
 	               	 	<img class="portfolio-proj-image2" src="assets/images/portfolio/proj2.png">
 	                	<div class="overlay">
 		                <h4 class="portfolio-proj-title">Ground Up Cafe</h4>
                         <p class="portfolio-proj-desc1">A Website for a coffee company in the Philippines.</p>           
-                        <p class="portfolio-proj-desc2">Technology used: HTML 5, CSS 3, <br>Bootstrap, JavaScript</p> 
+                        <p class="portfolio-proj-desc2">Technology used: <br>HTML 5, CSS 3, Bootstrap, JavaScript</p> 
                         <a class="btn btn-rounded portfolio-proj-btn" href="https://aldrinmanahan.github.io/ground-up-cafe" role="button" target="_blank">View Project</a>
 	                	</div>
             		</div>
         		</div>
 			</div>
-        	<div class="col-lg-6 col-9 d-flex mx-auto wow fadeInDown" data-wow-delay="1s"> <!-- 3rd side project -->
+        	<div class="col-lg-6 col-md-9 d-flex mx-auto wow fadeInDown" data-wow-delay="1s"> <!-- 3rd side project -->
 	            <div class="row" id="project3"> 
-	                <div class="col-lg-12 col-md-10 offset-md-1 col-sm-12 text-center">
+	                <div class="col-md-12 text-center">
 	                	<img class="img portfolio-proj-image3" src="assets/images/portfolio/proj3.png">
 	                	<div class="overlay">
                         <h4 class="portfolio-proj-title">Sole Stop PH</h4>
                         <p class="portfolio-proj-desc1">An E-Commerce website for basketball shoes and apparels.</p>           
-                        <p class="portfolio-proj-desc2">Technology used: HTML 5, CSS 3, MDBootstrap, <br>JavaScript, PHP and MySQL</p> 
+                        <p class="portfolio-proj-desc2">Technology used: <br>HTML 5, CSS 3, MDBootstrap, JavaScript, PHP and MySQL</p> 
                         <a class="btn btn-rounded portfolio-proj-btn" href="https://solestopph.000webhostapp.com/" role="button" target="_blank">View Project</a>
 	                	</div>
 	                </div>
 	            </div>
         	</div>
-	      	<div class="col-lg-6 col-9 d-flex mx-auto wow fadeInRight" data-wow-delay="1.5s"> <!-- 4th side project -->
+	      	<div class="col-lg-6 col-md-9 d-flex mx-auto wow fadeInRight" data-wow-delay="1.5s"> <!-- 4th side project -->
 	            <div class="row" id="project3"> 
-	                <div class="col-lg-12 col-md-10 offset-md-1 col-sm-12 text-center">
+	                <div class="col-md-12 text-center">
 	                	<img class="img portfolio-proj-image3" src="assets/images/portfolio/proj4.png">
 	                	<div class="overlay">
 	                	<h4 class="portfolio-proj-title">Trail Adventures</h4>
                         <p class="portfolio-proj-desc1">A Blogsite about hiking in the Philippines.</p>           
-                        <p class="portfolio-proj-desc2">Technology used: HTML 5, CSS 3, MDBootstrap, <br>JavaScript, PHP, MySQL and Laravel</p> 
+                        <p class="portfolio-proj-desc2">Technology used: <br>HTML 5, CSS 3, MDBootstrap, JavaScript, PHP, MySQL and Laravel</p> 
                         <a class="btn btn-rounded portfolio-proj-btn" href="https://trailadventuresph.000webhostapp.com/" role="button" target="_blank">View Project</a>
 	                	</div>
 	                </div>
@@ -223,36 +211,48 @@
    	</section>
 
   	<section id="contact" class="wow fadeIn">
-  	<div class="jumbotron wow slideInRight">
-	<h3>CONTACT</h3> <!-- contact -->
-	</div>
-	<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-12 wow fadeIn" data-wow-delay=".5s">
-			<br>
-			<h4> Feel free to send me an email: <i class="fa fa-envelope"></i> <a class="email" href="mailto:aldrinmanahan@gmail.com" target="_top">aldrinmanahan@gmail.com</a></h4>
-			<h4> Contact number: <i class="fa fa-phone"></i> <a class="phone">+63 966 440 6713</a></h4>
-			<br>
-			<div class="text-center contact-social-icons">
-          	<p>Or also find me on:</p>
-          		<ul class="socials">
-           		 	<a href="https://github.com/aldrinmanahan" target="_blank"><li><i class="fa fa-github"></i> Github</li></a>
-           		 	<a href="https://gitlab.com/aldrinmanahan" target="_blank"><li><i class="fa fa-gitlab"></i> Gitlab</li></a>
-           		 	<!-- <a href="https://linkedin.com" target="_blank"><li><i class="fab fa-linkedin-in"></i> LinkedIn</li></a> -->
-            		<!-- <a href="https://twitter.com/aldrinmnhn" target="_blank"><li><i class="fa fa-twitter"></i> Twitter</li></a>
-            		<a href="https://instagram.com/aldrinmnhn" target="_blank"><li><i class="fa fa-instagram"></i> Instagram</li></a>   --> 		
-          		</ul>
-			</div>
+      	<div class="jumbotron wow slideInRight">
+    	   <h3 class="jumbotronTitle">CONTACT</h3> <!-- contact -->
+    	</div>
+	<div class="container">
+	<div class="row mx-auto">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 wow fadeIn" data-wow-delay=".5s">
+            <h4 class="contactSubject">Let's Get In Touch!</h4>
+            <p class="contactPar">Feel free to send me an email or contact me and I will get back to you as soon as possible!</p>
+        </div>
+        <div class="col-md-3"></div>
     </div>
+    <div class="row">
+		<div class="col-md-4 wow fadeIn" data-wow-delay=".5s">
+            <p class="contactLogo"><i class="contactFont far fa-envelope"></i></p>
+            <p class="contactAcct"><a class="email" href="mailto:aldrinmanahan@gmail.com" target="_top">aldrinmanahan@gmail.com</a></p>
+		</div>
+        <div class="col-md-4 wow fadeIn" data-wow-delay=".5s">
+            <p class="contactLogo"><i class="contactFont fas fa-phone"></i></p>
+            <p class="contactAcct"><a class="phone">+63 966 440 6713</a></p>
+        </div>
+        <div class="col-md-4 wow fadeIn" data-wow-delay=".5s">
+            <p class="contactPar">You can also find me on: </p>
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a href="https://github.com/aldrinmanahan" target="_blank"><p class="contactLogo"><i class="contactFont fab fa-github"></i></p></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://gitlab.com/aldrinmanahan" target="_blank"><p class="contactLogo"><i class="contactFont fab fa-gitlab"></i></p></a>
+                </li>
+                <!-- <li class="list-inline-item">
+                    <a href="https://linkedin.com/" target="_blank"><p class="contactLogo"><i class="contactFont fab fa-linkedin-in"></i></p></a>
+                </li> -->
+            </ul>
+        </div>
     </div>
 	</section> <!-- endContact -->
 
     <footer class="footer text-center"> <!-- footer -->
-      <div class="container-fluid">
       	<p class="footer"> Designed and developed by Aldrin Manahan &copy; 2018</p>
-      </div>
     </footer> <!-- endFooter -->
-   </div> <!-- endWrapper -->
+
 
 	<!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
