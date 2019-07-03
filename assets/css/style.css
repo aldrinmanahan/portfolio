@@ -257,6 +257,9 @@ i {
   .navbar .nav-item .nav-link {
     font-size: 13px;
   }
+  #header {
+    background-position: initial;
+  }
   .jumbotronTitle {
       font-size: 20px;
   }
