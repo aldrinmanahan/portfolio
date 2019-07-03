@@ -228,11 +228,12 @@ i {
 .fa-github, 
 .fa-gitlab, 
 .fa-linkedin-in {
-  color: black;
+  color: #171717;
   cursor: pointer;
   padding-right: 10px;
 }
-.email {
+.email,
+.phone {
   color: #171717;
 }
 #contact {
