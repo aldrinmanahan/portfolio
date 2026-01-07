@@ -8,14 +8,19 @@
 html, body {
   overflow-x: hidden;
 }
+ul {
+  margin-bottom: 0px;
+}
+i {
+  color: #2F2F32;
+}
 .container {
   padding: 15px;
 }
 .navbar {
+  background-image: url("../images/background/bg.jpg"); 
   color: #171717;
   opacity: 1;
-  background-color: #F4F4F6;
-  background-image: url("../images/background/bg.jpg"); 
   font-weight: bold;
   position: fixed;
   top: -100px;
@@ -25,8 +30,19 @@ html, body {
 }
 .navbar .nav-item .nav-link {
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  padding-right: 35px;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.navbar-nav a:hover {
+    background-color: #FFF;
+    color: #171717;
+    border-radius: 50px;
+}
+
+.header {
+  height: 25px;
+  width: auto;
 }
 #header {
   background-image: url("../images/background/bg.jpg"); 
@@ -39,134 +55,136 @@ html, body {
   text-align:center;
 }
 .landingPageName {
-  font-size: 80px;
-  font-family: 'Anton', sans-serif;
-  padding-top: 30px;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-}
-.landingPageTitle {
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 5px;
-  font-size: 33px;
-}
-.logo {
-  height: 85px;
-  width: 90px;
-}
-.jumbotron {
-  background-image: url("../images/background/jumbotron.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  padding: 15px;
+  font-size: 120px;
+  font-family: "Funnel Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: -10px;
 }
 .jumbotronTitle {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 120px;
+  font-family: "Funnel Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: -10px;
   text-align: center;
+  padding: 30px 0px 0px;
   margin: 0px;
 }
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 1em;
+#about {
+  background-color: #F0F0F0;
+}
+.profile-img {
+  height: 300px;
+  width: auto; 
+  margin: auto;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 5px;
 }
 .about1stSec {
   margin-bottom: 0;
+  text-align: center;
 }
-.aboutPar {
-  font-size: 14px;
-  text-align: justify;
+.aboutHeading {
+  font-size: 50px;
+  font-family: "Funnel Sans", sans-serif;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1.2;
+}
+.aboutPar,
+.contactPar {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 90%;
 }
 .resume-btn {
-  color: #171717;
-  font-size: 12px;
+  background: #171717;
+  color: #F0F0F0; 
+  padding: 15px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 25px;
+  font-weight: 500;
   text-align: center;
-  background: #E3E3E5;
-  border: 2px solid #171717;
-  border-radius: 50px;
   margin-bottom: 1.25em; 
   -webkit-transition-duration: 0.3s;
 }
 .resume-btn:hover {
-  background: #171717;
-  color: #EAEAED; 
-  border: 2px solid #F5F5F5;
+  color: #171717;
+  background: #F0F0F0;
   -webkit-transition-duration: 0.3s;
 }
-.devTitle {
-  font-size: 17px;
+.devTitle,
+.portfolio-proj-title {
+  font-size: 30px;
   text-align: center;
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-family: "Funnel Sans", sans-serif;
 }
-.profile-img {
-  height: 160px;
-  margin-bottom: 15px;
-  width: 160px; 
-  border-radius: 100%;
-  border-style: solid;
-  border-color: white;
+.logoTitle {
+  font-weight: 500;
 }
-.about {
-  background-color: #E3E3E5;
-  background-attachment: fixed;
+.logo {
+  height: 95px;
+  width: auto;
+  filter: grayscale(0%);
+  
+  transition: filter 0.3s ease;
 }
-ul {
-  margin-bottom: 0px;
-}
-i {
-  color: #2F2F32;
+.logo:hover {
+  filter: grayscale(100%);
+  transform: translateY(-5px);
 }
 
 /*Porfolio*/
 .portfolio {
-  background-color: #E3E3E5;
+  background-image: url("../images/background/bg.jpg"); 
+  background-color: #F0F0F0;
   background-attachment: fixed;
+  background-size: cover;
 }
 .portfolio-proj {
-    margin-top: 0.625em; 
+  margin-top: 0.625em; 
 } 
 .portfolio-proj-title {
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: .5em;
-  margin-top: 1.25em;
-  text-align: justify;
-  margin-left: 45px;
+  padding-bottom: 0.875rem;
+  margin-top: 2.5rem;
+  margin-left: 25px;
+  text-align: left;
 }
 .portfolio-proj-desc1, 
 .portfolio-proj-desc2 {
-  font-size: 14px;
-  text-align: justify;
-  margin-left: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 1.25rem;
 }
 .portfolio-proj-btn {
-  color: #171717;
-  font-size: 12px;
-  background: transparent;
-  border: 2px solid #171717;
-  border-radius: 50px;
-  margin-bottom: 1.25em; 
-  margin-top: 1.50em;
+  background: #12100E;
+  color: #F0F0F0; 
+  padding: 15px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem; 
   -webkit-transition-duration: 0.3s;
 }
 .portfolio-proj-btn:hover {
-  background: #171717;
-  color: #EAEAED; 
-  border: 2px solid #F5F5F5;
+  color: #F0F0F0; 
+  transform: translateY(-5px);
+  -webkit-transition-duration: 0.3s;
 }
 .portfolio-proj-image {
   margin-bottom: 1.875em;
   padding-top: 5%; 
 }
 .portfolio-proj-image1, 
-.portfolio-proj-image2, 
-.portfolio-proj-image3 {
+.portfolio-proj-image2 {
   display: block;
   width: 100%; 
   height: auto;
@@ -176,19 +194,19 @@ i {
 }
 .overlay {
     position: absolute;
-    top: 0px;
+    top: -25px;
     height: 100%;
-    width: 100%;
+    width: 95%;
     opacity: 0;
+    border-radius: 50px;
     transition: .7s ease;
-    background-color: #E3E3E5;
+    background-color: #FFF;
     -webkit-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
 }
 #project1:hover .overlay,
-#project2:hover .overlay,
-#project3:hover .overlay {
-  opacity: .9;
+#project2:hover .overlay {
+  opacity: 1;
 }
 /*Footer*/
 .contactTitle {
@@ -201,19 +219,18 @@ i {
 .contactLogo {
   text-align: center;
 }
-.contactSubject {
-  font-size: 20px;
-  font-weight: bold;
+.contactPar {
+  width: 60%;
+  margin: auto;
   text-align: center;
-  margin-bottom: 1em;
 }
-.contactPar,
 .contactAcct {
+  font-size: 16px;
+  font-weight: 500;
   text-align: center;
-  font-size: 14px;
 }
 .contactFont {
-  font-size: 50px;
+  font-size: 70px;
 }
 .fa-github:hover {
   color: #333;
@@ -236,19 +253,20 @@ i {
   color: #171717;
 }
 #contact {
-  background-color: #DEDEE0;
+  background-color: #F0F0F0;
   background-attachment: fixed;
 }
 .footer {
-  background-image: url("../images/background/bg.jpg"); 
+  background-color: #F0F0F0;
+  color: #171717; 
   overflow: hidden;
   bottom: 0;
-  /* Set the fixed height of the footer here */
-  height: 20px;
-  background-color: #EAEAED;
-  color: #171717; 
   font-family: 'Hind Siliguri', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding: 5px 60px;
+  text-align: left;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -256,11 +274,36 @@ i {
   .navbar .nav-item .nav-link {
     font-size: 13px;
   }
+  #header {
+    height: 50vh;
+  }
+  .landingPageName,
   .jumbotronTitle {
-      font-size: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -5px;
+  }
+  .profile-img {
+    height: 150px;
+    width: auto;
   }
   .resume-btn {
-      font-size: 10px;
+    font-size: 12px;
+  }
+  .aboutHeading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .aboutPar {
+      font-size: 14px;
+      max-width: 100%;
+  }
+  .devTitle {
+    font-size: 18px;
+  }
+  .logoTitle {
+    font-size: 12px;
   }
   .portfolio-proj-image1, 
   .portfolio-proj-image2, 
@@ -288,16 +331,11 @@ i {
   .portfolio-proj-desc1, 
   .portfolio-proj-desc2 {
     font-size: 12px;
-    text-align: center;
-    margin-left: 0px;
   }
   .portfolio-proj-btn {
     font-size: 10px;
     margin-bottom: 2.25em;
     margin-top: 0.5em;
-  }
-  .landingPageName {
-    font-size: 40px;
   }
   .landingPageTitle {
     font-size: 16px;
@@ -305,12 +343,7 @@ i {
   .title {
     font-size: 18px;
   } 
-  .devTitle {
-    font-size: 16px;
-  }
-  .aboutPar {
-      font-size: 12px;
-  }
+
   .contactTitle {
     font-size: 16px;
     font-weight: bold;
@@ -327,16 +360,21 @@ i {
     text-align: center;
     margin-bottom: 1em;
   }
+  .contactPar {
+    width: 100%;
+  }
   .contactPar,
   .contactAcct {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
   }
   .contactFont {
     font-size: 30px;
   }
   .footer {
-    font-size: 11px;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
   }
 }
 /* Small devices (landscape phones, 576px and up)*/
@@ -366,14 +404,7 @@ i {
 }
 
 /* Ipad Pro*/
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .landingPageName {
-    font-size: 80px;
-  }
-  .landingPageTitle {
-    font-size: 33px;
-  }
-}
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { ... }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
