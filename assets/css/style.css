@@ -281,7 +281,7 @@ i {
   .jumbotronTitle {
     font-size: 50px;
     font-weight: 700;
-    letter-spacing: -5px;
+    letter-spacing: -3px;
   }
   .profile-img {
     height: 150px;
@@ -294,6 +294,7 @@ i {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    letter-spacing: -2px;
   }
   .aboutPar {
       font-size: 14px;
@@ -331,6 +332,8 @@ i {
   .portfolio-proj-desc1, 
   .portfolio-proj-desc2 {
     font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0rem;
   }
   .portfolio-proj-btn {
     font-size: 10px;
@@ -372,7 +375,7 @@ i {
     font-size: 30px;
   }
   .footer {
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
     text-align: center;
   }
