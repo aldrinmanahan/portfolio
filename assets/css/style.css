@@ -276,6 +276,7 @@ i {
   }
   #header {
     height: 50vh;
+    background-attachment: scroll!important;
   }
   .landingPageName,
   .jumbotronTitle {
